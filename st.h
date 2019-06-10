@@ -109,6 +109,7 @@ size_t utf8encode(Rune, char *);
 void *xmalloc(size_t);
 void *xrealloc(void *, size_t);
 char *xstrdup(char *);
+int trt_kbdselect(KeySym, char *, int);
 
 /* config.h globals */
 extern char *utmp;
@@ -120,3 +121,4 @@ extern char *termname;
 extern unsigned int tabspaces;
 extern unsigned int defaultfg;
 extern unsigned int defaultbg;
+extern float alpha;
